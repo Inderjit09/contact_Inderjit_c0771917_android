@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#1f1f1d"
+    tools:context=".SplashActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <View
+            android:id="@+id/blueline"
+            android:layout_width="30dp"
+            android:layout_height="65dp"
+            android:background="#0000ff"
+            android:layout_centerHorizontal="true"/>
+
+        <View
+            android:id="@+id/greenline"
+            android:layout_width="30dp"
+            android:layout_height="130dp"
+            android:background="#00ff00"
+            android:layout_toRightOf="@+id/blueline"/>
+
+        <View
+            android:id="@+id/redline"
+            android:layout_width="30dp"
+            android:layout_height="195dp"
+            android:background="#ff0000"
+            android:layout_toRightOf="@+id/greenline"/>
+
+        <View
+            android:id="@+id/greenline2"
+            android:layout_width="30dp"
+            android:layout_height="260dp"
+            android:background="#00ff00"
+            android:layout_toRightOf="@+id/redline"/>
+
+        <View
+            android:id="@+id/redline2"
+            android:layout_width="30dp"
+            android:layout_height="325dp"
+            android:background="#ff0000"
+            android:layout_toRightOf="@+id/greenline2"/>
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/middleText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:fontFamily="@font/baloo"
+            android:text="Inder"
+            android:textColor="#ffffff"
+            android:textSize="120sp" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom">
+
+        <TextView
+            android:id="@+id/bottomText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="50dp"
+            android:fontFamily="@font/copse"
+            android:text="C0771917"
+            android:textColor="#ff8a8585"
+            android:textSize="25sp" />
+
+    </RelativeLayout>
+    </LinearLayout>
+
+
+</LinearLayout>
